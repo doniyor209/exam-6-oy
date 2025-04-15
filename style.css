@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+.text h1 {
+    font-family: Arial;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 267px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.text span {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 267px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #00BFFF;
+}
+
+body {
+    background-color: #2A2A2A;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+input {
+    color: black;
+    width: 200px;
+    height: 39px;
+    top: 348px;
+    left: 432px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #757575;
+}
+
+
+select {
+    width: 100px;
+    height: 39px;
+    top: 347px;
+    left: 656px;
+    border-radius: 5px;
+    color: black;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.btn {
+    width: 70.69999694824219px;
+    height: 39px;
+    top: 348px;
+    left: 905px;
+    border-radius: 5px;
+    background-color: #D9534F;
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.btn2 {
+    width: 75.55999755859375px;
+    height: 35px;
+    top: 293px;
+    left: 84.22px;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13.3px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #5CB85C;
+    color: #FFFFFF;
+    border: none;
+}
+
+.card {
+    color: white;
+    width: 244px;
+    height: 368px;
+    top: 20px;
+    left: 304px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px #00000080;
+    background: #333333;
+    text-align: center;
+}
+.card h3{
+    margin-top: 10px;
+}
+.card h4{
+    margin-top: 10px;
+}
+.card h5{
+    margin-top: 10px;
+}
+.card .btn2{
+    margin-top: 10px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
